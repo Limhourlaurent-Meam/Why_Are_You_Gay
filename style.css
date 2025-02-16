@@ -47,6 +47,7 @@ body {
   width: 90%; /* Responsive width */
   max-width: 500px; /* Maximum width */
 }
+
 .close {
   color: #aaa;
   float: right;
@@ -66,13 +67,16 @@ body {
 
 @media (max-width: 600px) {
   .btn {
-    font-size: 18px;
+    font-size: 18px; /* Slightly larger for better readability on small screens */
     padding: 12px 24px; /* Larger touch targets */
   }
+
   .modal-content {
-    width: 80%; /* Slightly larger width percentage for small devices */
+    margin: 10% auto; /* Less vertical space on small screens */
+    padding: 15px;
   }
+
   .highlight {
-    font-size: 20px; /* Slightly smaller font size for mobile */
+    font-size: 20px; /* Adjust font size for smaller displays */
   }
 }
